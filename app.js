@@ -37,9 +37,9 @@ console.log("Skrip app.js berhasil terhubung!");
 // 2. Buat variabel "namaKasir" (misal: "Kak Eko") dan "shiftKerja" menggunakan "let".
 // 3. Cetak nilai NAMA_KEDAI, namaKasir, dan shiftKerja ke Console menggunakan console.log().
 
-const NAMA_KEDAI = "Well Cafe";
+const NAMA_KEDAI = "jawa cafe";
 
-let namaKasir = "Shaquel";
+let namaKasir = "Herman";
 let shiftKerja = "Malam";
 
 console.log("Nama Kedai: " + NAMA_KEDAI);
@@ -51,7 +51,7 @@ console.log("Shift Kerja: " + shiftKerja);
 // Ubah (re-assign) nilai variabel "namaKasir" dengan nama kasir lain,
 // lalu cetak ke Console untuk membuktikan bahwa variabel "let" nilainya dapat diubah.
 
-namaKasir = "Aldebran";
+namaKasir = "Hasan";
 console.log("Nama Kasir: " + namaKasir);
 
 // ---- BAGIAN 2B: INPUT INTERAKTIF & PENGANDAIAN DASAR ----
@@ -62,7 +62,7 @@ console.log("Nama Kasir: " + namaKasir);
 //    - JIKA namaPelanggan ada isinya: tampilkan alert sapaan dan log ke console.
 //    - JIKA namaPelanggan kosong / klik Cancel: beri nilai default "Pelanggan Setia" dan tampilkan alert pemberitahuan.
 
-alert("Selamat datang di Sistem Member Well Cafe!");
+alert("Selamat datang di Sistem Member jawa cafe!");
 
 let namaPelanggan = prompt("Halo! Masukkan nama kamu untuk memulai: ");
 
@@ -71,7 +71,7 @@ if (namaPelanggan) {
     "Halo " +
       namaPelanggan +
       "!" +
-      " Mari kita lihat sistem member di Well Cafe",
+      " Mari kita lihat sistem member di jawa cafe",
   );
   console.log("Nama Pelanggan: " + namaPelanggan);
 } else {
@@ -174,10 +174,10 @@ function hitungTotalPoin(poin1, poin2, poin3) {
 // dan mengembalikan (return) string nama tier beserta keterangannya.
 
 function tentukanTierMember(poin) {
-  if (poin >= 100) return "Platinum - Pelanggan Sultan";
-  if (poin >= 70) return "Gold - Pelanggan Ningrat";
-  if (poin >= 40) return "Silver - Pelanggan Juragan";
-  return "Bronze - Pelanggan Jelata";
+  if (poin >= 100) return "Platinum - Tuhan";
+  if (poin >= 70) return "Gold - Raja";
+  if (poin >= 40) return "Silver - Rakyat Biasa";
+  return "Bronze - Rakyat Jelata";
 }
 
 // TODO 5C:
@@ -209,11 +209,11 @@ console.log("Tier Member kamu adalah: " + tierPelangganC);
 // Buat variabel Array bernama "menuRekomendasi" yang berisi minimal 5 nama menu kopi/makanan.
 
 let menuRekomendasi = [
-  "Americano",
-  "Caramel Macchiato",
-  "Matcha Latter",
-  "Mac & Cheese",
-  "Double Cheese Burger",
+  "Espresso",
+  "Cappuccino",
+  "Pizza",
+  "Cheeseburger",
+  "fries rat",
 ];
 
 console.log("--- MENU REKOMENDASI " + NAMA_KEDAI + " ---");
